@@ -1,0 +1,149 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+/*header section*/
+header{
+	width: 100%;
+	float: left;
+	padding: 25px 0px;
+	background-color: #114c64;
+}
+.header-top{
+
+}
+.logo{
+	width: 30%;
+	float: left;
+}
+.logo img{
+
+}
+.menu{
+	width: 70%;
+	float: left;
+}
+nav{
+
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+	margin: 0px 20px;	
+
+}
+nav ul li a{
+	color: white;
+	text-decoration:none;
+	font-size: 20px; 
+	text-align: capitalize;
+}
+
+/*admin-login section*/
+.admin-login{
+	background: url(../img/bg.jpg)no-repeat;
+	width:100%;
+	background-size: cover;
+}
+.admin-pic{
+	text-align: center;
+	margin-top: 50px; 
+}
+.admin-pic img{
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 100px;
+	margin-top: 50px;
+}
+.admin-text{
+
+}
+.admin-text h1{
+		text-align:center;
+		color:black;
+		font-size: 30px;
+		padding: 10px 10px;
+		margin: 20px 20px; 
+}
+
+.form-control {
+   	width: 55%;
+    background: white;
+    border-style: none;
+    border: 1px solid white;
+    margin:5px 240px;
+    height: 50px;
+    padding-left: 20px;
+    font-family: "Lato", sans-serif;
+    color: black;
+    border-radius: 20px;
+    
+}
+.login-btn{
+	padding: 10px 25px;
+    color: white;
+    border-radius: 100px;
+    border: 1px solid white;
+    font-size: 30px;
+    margin: 20px 700px;
+    transition: 0.4s ease-in-out;
+   background-color:#581212;
+   margin-bottom: 50px;
+}
+.login-btn:hover{
+	background: blue;
+}
+
+/*service section*/
+.service{
+	background-color: white;
+	width: 100%;
+	float: left;
+	padding: 25px;
+	background-color: #95e3c5;
+}
+.service-objects{
+	width: 100%;
+
+}
+.service-objects1{
+	width: 25%;
+	float: left;
+}
+.service-objects2{
+	float: left;
+	width: 25%;
+}
+.service-objects3{
+	float: left;
+	width: 25%
+}
+.service-objects4{
+	float: left;
+	width:25%;
+}
+.service-objects img{
+	margin: 0px 20px; 
+	padding:0px 60px; 
+}
+.service-objects h3{
+	color: black;
+	margin: 0px 20px;
+	padding: 10px 65px; 
+
+}
+.service-objects p{
+	color: black;
+	padding: 0px 20px;
+	text-align: center;
+	margin: 10px 0px;
+}
